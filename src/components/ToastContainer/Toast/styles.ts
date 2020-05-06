@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-interface ToastProps {
+interface ContainerProps {
   type?: 'success' | 'error' | 'info';
   hasDescription: boolean;
 }
@@ -20,15 +20,7 @@ const toastTypeVariations = {
   `,
 };
 
-export const Container = styled.div`
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 30px;
-  overflow: hidden;
-`;
-
-export const Toast = styled.div<ToastProps>`
+export const Container = styled.div<ContainerProps>`
   width: 360px;
 
   position: relative;
@@ -69,8 +61,8 @@ export const Toast = styled.div<ToastProps>`
     color: inherit;
   }
 
-  ${(props) => !props.hasDescription
-    && css`
+  ${(props) => !props.hasDescription &&
+    css`
       align-items: center;
 
       svg {
