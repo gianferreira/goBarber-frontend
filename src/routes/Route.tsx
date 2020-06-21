@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ComponentType } from 'react';
 import {
   RouteProps as ReactDOMRouteProps,
   Route as ReactDOMRoute,
@@ -9,7 +9,7 @@ import { useAuth } from '../hooks/auth';
 
 interface RouteProps extends ReactDOMRouteProps {
   isPrivate?: boolean;
-  component: React.ComponentType;
+  component: ComponentType;
 }
 
 const Route: React.FC<RouteProps> = ({
