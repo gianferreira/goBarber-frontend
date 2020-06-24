@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img alt="GoBarber" src="https://github.com/gianferreira/gostack11-gobarber-frontend/blob/master/readme-logo.svg" width="200px"/>
+  <img alt="GoBarber" src="https://github.com/gianferreira/goBarber-frontend/blob/master/readme-logo.svg" width="200px"/>
 </h3>
 
 <h1 align="center">
@@ -9,20 +9,20 @@
 <p align="center">Front-end em ReactJS da aplicação GoBarber.</p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gianferreira/gostack11-gobarber-frontend">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/gianferreira/gostack11-gobarber-frontend">
-  <img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/gianferreira/gostack11-gobarber-frontend">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gianferreira/goBarber-frontend">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/gianferreira/goBarber-frontend">
+  <img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/gianferreira/goBarber-frontend">
 </p>
 
 <table>
   <tr>
     <td>
-      <img alt="SignIn" src="https://github.com/gianferreira/gostack11-gobarber-frontend/blob/master/readme-signin.png" width="1000px"/>
+      <img alt="SignIn" src="https://github.com/gianferreira/goBarber-frontend/blob/master/readme-signin.png" width="1000px"/>
     </td>
   </tr>
   <tr>
     <td>
-      <img alt="SignUp" src="https://github.com/gianferreira/gostack11-gobarber-frontend/blob/master/readme-signup.png" width="1000px"/>
+      <img alt="SignUp" src="https://github.com/gianferreira/goBarber-frontend/blob/master/readme-signup.png" width="1000px"/>
     </td>
   </tr>
 </table>
@@ -31,28 +31,28 @@
 
 O GoBarber é uma aplicação para controle de agendamento de serviços de barbearia. Onde por meio da aplicação mobile, o cliente pode agendar um horário com um prestador de serviço (provider). Na aplicação web, os prestadores de serviço podem cancelar, verificar seus agendamentos, dentre outras funcionalidades.
 
-A aplicação consome uma <a href="https://github.com/gianferreira/gostack11-gobarber-backend"><b> API </b></a> construída em Node.js
+A aplicação consome uma <a href="https://github.com/gianferreira/goBarber-backend"><b> API </b></a> construída em Node.js
 
 ## Tecnologias utilizadas:
 
-- ReactJS
-- React-router
-- React-icons
+- reactjs
+- react-router
+- react-icons
 - react-spring
-- Context API
-- Hooks
-- Axios
-- Styled-components
-- Eslint
-- Prettier
-- Typescript
+- context API
+- react hooks
+- axios
+- styled-components
+- eslint
+- prettier
+- typescript
 
 ## Instalação e execução:
 
 Na primeira vez que for utilizar, faça um clone deste repositório:
 
 ```bash
-$ git clone https://github.com/gianferreira/gostack11-gobarber-frontend
+$ git clone https://github.com/gianferreira/goBarber-frontend
 ```
 
 Dentro da pasta do seu repositório criado, utilize o comando abaixo para instalar as dependências da aplicação:
@@ -82,6 +82,6 @@ yarn start
 <blockquote align="center">
   Este projeto foi desenvolvimento durante o
     <a href="https://rocketseat.com.br/gostack">
-      Gostack 11.0 da RocketSeat
+      Bootcamp da RocketSeat
     </a>
 </blockquote>
