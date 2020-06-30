@@ -24,6 +24,14 @@
     <td>
       <img alt="SignUp" src="https://github.com/gianferreira/goBarber-frontend/blob/master/readme-signup.png" width="1000px"/>
     </td>
+    <td>
+      <img alt="Dashboard" src="https://github.com/gianferreira/goBarber-frontend/blob/master/readme-dashboard.png" width="1000px"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img alt="Profile" src="https://github.com/gianferreira/goBarber-frontend/blob/master/readme-profile.png" width="1000px"/>
+    </td>
   </tr>
 </table>
 
